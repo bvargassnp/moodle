@@ -1,0 +1,9 @@
+FUNCTION-POOL ZDEDU_ACTUALIZA_ITXXXX.     "MESSAGE-ID ..
+
+* INCLUDE LZDEDU_ACTUALIZA_IT_PAGOSD...      " Local class definition
+
+Data: gs_9114 TYPE pt9114,
+      gs_9119 TYPE pt9119.
+
+
+FIELD-SYMBOLS <text>  TYPE c.

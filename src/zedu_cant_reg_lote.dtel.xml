@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZEDU_CANT_REG_LOTE</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>NUMC8</DOMNAME>
+    <HEADLEN>22</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>22</SCRLEN3>
+    <DDTEXT>Nro de registros del lote</DDTEXT>
+    <REPTEXT>Nro registros del lote</REPTEXT>
+    <SCRTEXT_S>Nro reg</SCRTEXT_S>
+    <SCRTEXT_M>Nro reg lote</SCRTEXT_M>
+    <SCRTEXT_L>Nro registros del lote</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

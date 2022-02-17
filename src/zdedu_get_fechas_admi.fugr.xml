@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Grupo función obtención de fechas</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDEDU_GET_FECHAS_ADMIF01</SOBJ_NAME>
+    <SOBJ_NAME>LZDEDU_GET_FECHAS_ADMITOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDEDU_GET_FECHAS_ADMI</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_EDU_GET_FECHA_EXAMEN_ENTREV</FUNCNAME>
+     <SHORT_TEXT>Obtiene fecha de examen o entrevista según plan est.</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_PLAN_ESTUDIO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>HROBJID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ANIO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PIQPERYR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PERIODO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PIQPERID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_TIPO_FECHA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PIQEVOBTYPE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_FECHAS</PARAMETER>
+       <TYP>ZEDU_T_FEC_EXAM_ENTREVISTA</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_PLAN_ESTUDIO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ID objeto</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ANIO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Año académico</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PERIODO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Período académico</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_TIPO_FECHA</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_FECHAS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo tabla de fechas de exámen o fechas de entrevista</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

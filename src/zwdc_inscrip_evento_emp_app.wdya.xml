@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_WDYA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <APP>
+    <APPLICATION_NAME>ZWDC_INSCRIP_EVENTO_EMP_APP</APPLICATION_NAME>
+    <COMPONENT>ZWDC_HEAD_FOOTER_CONTINUA</COMPONENT>
+    <STARTUP_VIEW>W_INSCRIP_EVENT_EMPR</STARTUP_VIEW>
+    <STARTUP_PLUG>DEFAULT</STARTUP_PLUG>
+    <DISPLAY_NAME>ZWDC_INSCRIP_EVENTO_EMP_APP</DISPLAY_NAME>
+   </APP>
+  </asx:values>
+ </asx:abap>
+</abapGit>

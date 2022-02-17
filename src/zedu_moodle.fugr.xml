@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Reporte de pago de un producto</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZEDU_MOODLETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZEDU_MOODLE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZEDU_PAGOS_MOODLE</FUNCNAME>
+     <SHORT_TEXT>Reporte de pago de un producto</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_ESTRUCTURA_MOODLE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZSTEDU_PAYMENTREPORTPROD_IN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_IDENTIFICADOR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>STRING</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_MENSAJES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPIRET2_T</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_ESTRUCTURA_MOODLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estructura para reportar a plataforma Moodle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_IDENTIFICADOR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Identificador local único de la transacción</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_MENSAJES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mensaje de error</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

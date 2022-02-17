@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Name="ZFPM_ALTA_PERSONAS" ConfId="ZWDC_DATOS_PERSONALES" ConfType="02" ConfVar="">
+ <Component Name="FPM_GAF_COMPONENT" Usage="ZFPM_ALTA_PERSONAS" ConfType="00" ConfId="ZWDC_DATOS_PERSONALES" ConfVar="" Interface="False">
+  <Component Name="FPM_IDR_COMPONENT" Usage="IDR_USAGE" ConfType="00" ConfId="ZWDC_DATOS_PERSONALES_IDR" ConfVar="" Interface="False"/>
+ </Component>
+</Application>

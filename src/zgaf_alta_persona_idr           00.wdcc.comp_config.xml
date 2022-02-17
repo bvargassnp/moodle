@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_IDR_COMPONENT" ConfId="ZGAF_ALTA_PERSONA_IDR" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="IDR_BASIC" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <APPLICATION_TITLE Transl="true">1</APPLICATION_TITLE>
+    </Item>
+   </Node>
+   <Node Name="IDR_EXTENDED" SimpleFormat="true"/>
+  </Item>
+ </Node>
+</Component>

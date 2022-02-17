@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <URL>/sap/bc/webdynpro/sap/DCE10037/</URL>
+   <ICFSERVICE>
+    <ICF_NAME>DCE10037</ICF_NAME>
+    <ORIG_NAME>DCE10037</ORIG_NAME>
+    <ICFALTNME>Z_REP_DET_ACTV_APP</ICFALTNME>
+   </ICFSERVICE>
+   <ICFDOCU>
+    <ICF_NAME>DCE10037</ICF_NAME>
+    <ICF_LANGU>S</ICF_LANGU>
+    <ICF_DOCU>Reporte detallado de actividades de docencia</ICF_DOCU>
+   </ICFDOCU>
+  </asx:values>
+ </asx:abap>
+</abapGit>

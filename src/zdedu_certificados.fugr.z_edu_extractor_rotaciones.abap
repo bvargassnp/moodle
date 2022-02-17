@@ -1,0 +1,74 @@
+FUNCTION z_edu_extractor_rotaciones.
+*"----------------------------------------------------------------------
+*"*"Interfase local
+*"  TABLES
+*"      IT_NRO_IDENT TYPE  ZEDU_T_NRO_IDENT
+*"      ET_DATOS_ROTACIONES TYPE  ZEDU_T_DATOS_ROTACIONES
+*"  EXCEPTIONS
+*"      SIN_DATOS
+*"----------------------------------------------------------------------
+
+  TYPES: BEGIN OF ty_ident,
+           objid     TYPE hrobjid,
+           nro_ident TYPE bu_id_number,
+         END OF ty_ident.
+
+  DATA: lr_class   TYPE REF TO zcl_wd_general_ass,
+        lt_ident   TYPE TABLE OF ty_ident,
+        ls_ident   TYPE ty_ident,
+        lv_stobjid TYPE hrobjid.
+
+  FIELD-SYMBOLS: <fs_nro_ident>        TYPE bu_id_number,
+                 <fs_datos_rotaciones> TYPE zedu_s_datos_rotaciones.
+
+  CREATE OBJECT lr_class.
+
+  LOOP AT it_nro_ident ASSIGNING <fs_nro_ident>. " Nros de identifiación
+
+*** Busco el OBJID del estudiante
+    lv_stobjid = lr_class->obtener_objid_st( EXPORTING iv_idnumber = <fs_nro_ident> ).
+
+    ls_ident-nro_ident = <fs_nro_ident>.
+    ls_ident-objid     = lv_stobjid.
+    APPEND ls_ident TO lt_ident.
+
+  ENDLOOP.
+
+  CHECK lt_ident IS NOT INITIAL.
+  SORT lt_ident.
+
+  SELECT objid
+         rota_short
+         rota_text
+         objid_sm
+         objid_rec
+         pernr
+         cname
+         begda_rot
+         endda_rot
+         ayear
+         short
+         prdni
+         stext
+         yearper
+         periodo
+    FROM hrp9120
+    INTO CORRESPONDING FIELDS OF TABLE et_datos_rotaciones
+    FOR ALL ENTRIES IN lt_ident
+    WHERE plvar = '01'
+      AND otype = 'ST'
+      AND objid = lt_ident-objid.
+**      AND endda = '99991231'.
+
+  IF sy-subrc IS NOT INITIAL.
+    RAISE sin_datos.
+  ENDIF.
+
+  LOOP AT et_datos_rotaciones ASSIGNING <fs_datos_rotaciones>.
+    CLEAR ls_ident.
+    READ TABLE lt_ident INTO ls_ident WITH KEY objid = <fs_datos_rotaciones>-objid.
+    <fs_datos_rotaciones>-nro_ident = ls_ident-nro_ident.
+  ENDLOOP.
+
+
+ENDFUNCTION.

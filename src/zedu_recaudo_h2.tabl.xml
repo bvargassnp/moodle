@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZEDU_RECAUDO_H2</TABNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Registro de encabezado de lote - Tipo 5</DDTEXT>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>TIPO_REG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>N</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <DATATYPE>NUMC</DATATYPE>
+     <LENG>000002</LENG>
+     <MASK>  NUMC</MASK>
+     <DDTEXT>Tipo de Registro</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>COD_SERV</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000026</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000013</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Codigo de Servicio Recaudado</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>NUM_LOTE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>N</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>NUMC</DATATYPE>
+     <LENG>000004</LENG>
+     <MASK>  NUMC</MASK>
+     <DDTEXT>Numero de Lote</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>RESERVADO</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000286</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000143</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Reservado</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

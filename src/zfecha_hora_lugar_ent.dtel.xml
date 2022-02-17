@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZFECHA_HORA_LUGAR_ENT</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>CHAR100</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Fecha, Hora y Lugar de la entrevista</DDTEXT>
+    <REPTEXT>Fecha, Hora y Lugar de la entrevista</REPTEXT>
+    <SCRTEXT_S>Fe,Hor,Lug</SCRTEXT_S>
+    <SCRTEXT_M>Fecha, Hora y Lugar</SCRTEXT_M>
+    <SCRTEXT_L>Fecha, Hora y Lugar de la entrevista</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Fecha, Hora y Lugar de la entrevista</DDTEXT>
+     <REPTEXT>Fecha, Hora y Lugar de la entrevista</REPTEXT>
+     <SCRTEXT_S>Fe,Hor,Lug</SCRTEXT_S>
+     <SCRTEXT_M>Fecha, Hora y Lugar</SCRTEXT_M>
+     <SCRTEXT_L>Fecha, Hora y Lugar de la entrevista</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

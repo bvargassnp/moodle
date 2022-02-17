@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Servicios de direcciones</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDEDU_DIRECCIONESTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDEDU_DIRECCIONES</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_EDU_ARMAR_DIRECCION</FUNCNAME>
+     <SHORT_TEXT>Armado de dirección</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>CH_DIRECCION</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZEDU_S_DIRECCION</TYP>
+      </RSCHA>
+     </CHANGING>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CH_DIRECCION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estructura de direcciones</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

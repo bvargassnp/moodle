@@ -1,0 +1,38 @@
+FUNCTION Z_EDU_ACTUAL_ESTADO_ESTUD_0020.
+*"----------------------------------------------------------------------
+*"*"Interfase local
+*"  IMPORTING
+*"     VALUE(I_FKKKO) LIKE  FKKKO STRUCTURE  FKKKO
+*"     VALUE(I_FKKKO_REV) LIKE  FKKKO STRUCTURE  FKKKO
+*"     VALUE(I_AUGRD) LIKE  FKKOP-AUGRD
+*"     VALUE(I_AUGVD) TYPE  AUGVD_KK OPTIONAL
+*"     VALUE(I_PROCESS) TYPE  C OPTIONAL
+*"     VALUE(I_PARTIAL_RESET) LIKE  BOOLE-BOOLE
+*"     VALUE(I_ADD_DOC) LIKE  BOOLE-BOOLE OPTIONAL
+*"     VALUE(I_LAST_OP_FROM_CALLER) TYPE  OPUPK_KK
+*"     VALUE(I_LAST_OPK_FROM_CALLER) TYPE  OPUPK_KK
+*"     VALUE(I_PYLOT_ADJUSTED) TYPE  FKKZP_KEY OPTIONAL
+*"  TABLES
+*"      T_FKKOP STRUCTURE  FKKOP
+*"      T_FKKOPK STRUCTURE  FKKOPK
+*"      T_FKKCL STRUCTURE  FKKCL
+*"      T_FKKRAP STRUCTURE  DFKKRAPT
+*"      T_FKKRAP_DETAIL STRUCTURE  FKKOP
+*"      T_FKKOP_DP STRUCTURE  DFKKOP_DP OPTIONAL
+*"----------------------------------------------------------------------
+
+  DATA: lt_fkkcl  TYPE fkkcl_t.
+
+  lt_fkkcl = t_fkkcl[].
+
+  DELETE lt_fkkcl
+  WHERE blart NE c_fa.
+
+  IF lt_fkkcl IS NOT INITIAL.
+
+    PERFORM f_actualizar_estados
+    USING lt_fkkcl.
+
+  ENDIF.
+
+ENDFUNCTION.

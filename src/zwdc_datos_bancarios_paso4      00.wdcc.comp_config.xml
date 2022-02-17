@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="ZWDC_DATOS_BANCARIOS" ConfId="ZWDC_DATOS_BANCARIOS_PASO4" ConfType="00" ConfVar="">
+ <View Name="V_DATOS_BANCARIOS">
+  <Item Name="TC_1_1">
+   <Prop Name="VISIBLE" Final="0 " P13N_MODE="02">01</Prop>
+  </Item>
+  <Item Name="TOOLBAR">
+   <Prop Name="VISIBLE" Final="0 " P13N_MODE="02">01</Prop>
+  </Item>
+ </View>
+</Component>

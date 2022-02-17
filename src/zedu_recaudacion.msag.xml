@@ -1,0 +1,875 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZEDU_RECAUDACION</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Clase de mensajes para el paquete ZEDU_RECAUDACION</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>****************Mensajes para carga de archivos********************</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>El archivo &amp;1 no existe o esta dañado</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Ruta archivo: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Nombre Archivo: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Lote &amp;1 ya procesado en la fecha &amp;2, con fecha valor &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Archivo &amp;1 vacío.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Archivo &amp;1 ha sido procesado anteriormente.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>El rango de números se encuentra bloqueado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Error al obtener el número del rango.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>El rango de números no se pudo desbloquear.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp;1-&amp;2. El valor no es válido para el domino definido. Valor: &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>&amp;1-&amp;2. El valor debe contener sólo digitos númericos. Valor: &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>El archivo no tiene registro cabecera tipo 05.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>El archivo no tiene registro cabecera tipo 06 para el lote &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>El archivo no tiene linea de total de control de lotes tipo 08.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>&amp;. El total de registros(8) no coincide con la suma de detalle(6). Lote &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>&amp;. El Valor total recaudado(8) no coincide con suma de detalle(6). Lote &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>&amp;1-&amp;2. El tipo de registro debe ser 01,05,06,08 o 09. Valor &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Error al grabar los datos en la Base de datos.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>El archivo no tiene registro cabecera tipo 1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>El archivo no tiene linea de total de archivo tipo 9.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>El total Nro de registros(9) no coincide con la suma de reg. de lote(8)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>El total Valor recaudado(9) no coincide con la suma de recaud. de lote(8)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Se ha movido el archivo a &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Debe ingresar Fecha o Nombre del Archivo</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>No hay información para los parámetros seleccionados</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Debe ingresar Fecha o Número de Lote.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>El Campo Identificador debe ser = &apos;C&apos; &apos;XX&apos;(Ciclo fac) &apos;NN&apos;(Consecutivo)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>El campo contrato es obligatorio si el tipo de doc es creditos</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>El tipo de contrato debe ser de creditos tabla ZCROSS_CA_PSOB</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Error al generar Clave de Reconciliación (&amp;1) para honorarios.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Se han contabilizado &amp;1 documentos de honorarios.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Falta parametrización de &amp;1 en la tabla &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Falta customizing de directorios</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Por favor ingrese algun parametro de tipo de cuenta contrato</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>No se han indicado cta contrato de BP&apos;s de la fecha de corte &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Archivo de recaudo sin cobro de honorarios</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>No se encontraron documentos cedidos</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Se ha ejecutado creación de lote para archivo &amp;1 Id. &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>No hay datos de crédito en el archivo &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Error al ejecutar la creación del lote del archivo &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Se encontró un linea vacía en medio del archivo &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Se inicia proceso del archivo de recaudo &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Los datos del mensaje se encuentran incompletos.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Error al generar clave de reconciliación.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Job &amp;1 cancelado (Archivo &amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Clave reconciliacion &amp; bloqueada.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>047</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>048</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>049</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>************* Mensajes para Pignoracion de Cuota Monetaria *************</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>No se registra información de pignoración.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>No se encuentra configuración de Tipos de CA para &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>BP&apos;s a pignorar invalidos.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>No existen clases de documentos de &amp;1 en tabla &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>No existen registros en la tabla &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>056</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>057</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>058</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>059</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>060</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>061</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>062</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>063</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>064</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>065</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>066</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>067</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>************* Mensajes para Recaudos a CML *************</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>No se han incluido Trasacciones en la tabla &amp; parametro &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>No se han indicado tipos de PSOB para creditos tabla ZCROSS_C_NEG_CON</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>No se encontro la clase de movimiento &amp; en la tabla TZB06</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Procensando el lote de pagos con clave reconciliacion &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Compensado en CML correctamente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>Anulado Correctamente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>Doc. &amp;1 pertenece a créditos, anular a través de las transacciones de CML</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>******** Mensajes para Calculo y Contabilizacion de Provisiones ********</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>Se creó el documento de provision &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>Se creó el documento de anulación de provision &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>Error al determinar la cta. de regularizacion para la cta. contable &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>Error al obtener el último dia del periodo &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>No existen datos de customizing en la tabla &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>No se encontraron registros de cabecera cuenta contrato.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>No se encontraron registros de Posiciones p.documento de cta.corriente.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>Se modifico la calificación del crédito &amp;1 de &amp;2 a &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>Error al modificar la calificación del crédito &amp;1 de &amp;2 a &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>No se encontro registro de cuenta contrato &amp;1 para el crédito &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>No se encontro el crédito &amp;1 en CML.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>No se encontro variante de provision para el crédito &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Variante de provision &amp;1 sin calificación para la mora del credito &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>No se encontraron préstamos.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Provisión ejecutada para proceso de castigo de cartera.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>Debe indicar la Fecha Provisión sin anulación.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>La fecha de provisión sin anulación debe pertenecer al periodo de corte.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>El crédito &amp;1 no tiene fecha de desembolso.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>El crédito &amp;1 tiene fecha de desembolso mayor a fecha de corte provisión.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Se creó el documento de cuentas de orden &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Se creó el documento de anulación cuentas de orden &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>************************Mensajes Cupo Credito CM*************************</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Error al actualizar crédito &amp;1 por morosidad.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>Error al crear condición de &amp;1 para crédito &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>BP &amp;1 no tiene valor de cuota monetaria liquidada para periodo &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>Cupo crédito &amp;1 bloqueado por mora.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>Se &amp;1 cupo para crédito &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>Error al calcular el cupo para crédito &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>****************Mensajes proces de pignoración masivo********************</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>Verificación clave de reconciliación.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>152</MSGNR>
+     <TEXT>Asignación de colores.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>153</MSGNR>
+     <TEXT>Inicio Obtencion de datos.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>154</MSGNR>
+     <TEXT>Inicio Validación de Datos.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>155</MSGNR>
+     <TEXT>Inicio Obtención de datos adicionales (Bloqueos y Doc Vtas)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>156</MSGNR>
+     <TEXT>Inicio Validación de datos adicionales.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>157</MSGNR>
+     <TEXT>Inicio Asignación de prioridades y ordenamiento.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>158</MSGNR>
+     <TEXT>Inicio Compensación de partidas de cuoeta monetaria.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>159</MSGNR>
+     <TEXT>Inicio Compensación de partidas de crédito.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>160</MSGNR>
+     <TEXT>Inicio Consumo de giros sobrantes.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>161</MSGNR>
+     <TEXT>Inicio Generación de reporte.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>162</MSGNR>
+     <TEXT>*************************************************************************</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>163</MSGNR>
+     <TEXT>... Se obtienen los bps de créditos</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>164</MSGNR>
+     <TEXT> ... Centidad de BPs: &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>165</MSGNR>
+     <TEXT> ... Bps ya leidos en DPSOB_BP_ACC:&amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>166</MSGNR>
+     <TEXT>... Cantidad de registro DPSOB_BP_ACC leidos: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>167</MSGNR>
+     <TEXT> ... Cantidad de psobs de subsidios: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>168</MSGNR>
+     <TEXT> ... Cantidad de psobs de creditos: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>169</MSGNR>
+     <TEXT>Inicio - Obtención de las CA de Subsidios de cada BP</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>170</MSGNR>
+     <TEXT>Inicio - Obtención de las partidas</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>171</MSGNR>
+     <TEXT>Inicio - Obtención de los titulares y Pac exceptuados</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>172</MSGNR>
+     <TEXT>Inicio - Obtención de customizing de distribución</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>173</MSGNR>
+     <TEXT>Inicio - Descarte de los documentos de giros</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>174</MSGNR>
+     <TEXT>...Se comienzan a analizar &amp;1 documentos de giros</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>175</MSGNR>
+     <TEXT>...Fin del análisis</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>176</MSGNR>
+     <TEXT> Inicio - Se inicia lectura de pertidas para &amp;1 Bps.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>177</MSGNR>
+     <TEXT> ... Bps ya procesados: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>178</MSGNR>
+     <TEXT>Fin lectura de partidas</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>179</MSGNR>
+     <TEXT> ... Inicio lectura de giros</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>180</MSGNR>
+     <TEXT> ... Inicio lectura documentos de créditos</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>181</MSGNR>
+     <TEXT> ... Inicio lectura estado de afiliados</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>182</MSGNR>
+     <TEXT>Total documentos de giro leidos: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>183</MSGNR>
+     <TEXT>Total documentos de créditos leidos: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>184</MSGNR>
+     <TEXT>Total estados de bps leidos: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>185</MSGNR>
+     <TEXT>Error al cerrar el job &amp;1. (sy subrc &amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>186</MSGNR>
+     <TEXT>Error en submitir el programa &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>187</MSGNR>
+     <TEXT>Error en la generacion de jobs.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>188</MSGNR>
+     <TEXT>Se lanzaron &amp;1 Jobs</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>189</MSGNR>
+     <TEXT>...Intento de bloqueo número &amp;1 para &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_RECAUDACION</ARBGB>
+     <MSGNR>190</MSGNR>
+     <TEXT>Se generó el job &amp;1.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

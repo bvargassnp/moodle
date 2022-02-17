@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Get Centro Patrocinio</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDEDU_PATRO_CENTROTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDEDU_PATRO_CENTRO</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZEDU_MF_GET_PATRO_CENTRO</FUNCNAME>
+     <SHORT_TEXT>Set Patro Centro</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_CENTRO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PRCTR</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>EV_CENTRO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Centro de beneficio</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZEDU_MF_SET_PATRO_CENTRO</FUNCNAME>
+     <SHORT_TEXT>Set Patro Centro</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_CENTRO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PRCTR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_CENTRO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Centro de beneficio</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

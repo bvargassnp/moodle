@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_GAF_COMPONENT" ConfId="ZGAF_ALTA_EMPRESA" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="GAF_APPLICATION" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <Node Name="ACTION" SimpleFormat="true"/>
+     <Node Name="APPLICATION_SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSIENT_STATE>N</TRANSIENT_STATE>
+      </Item>
+     </Node>
+     <Node Name="APP_SPECIFIC_CC" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <COMPONENT/>
+       <CONFIG_ID/>
+      </Item>
+     </Node>
+     <Node Name="CONF_COMP_USAGE" SimpleFormat="true"/>
+     <Node Name="CONTENT_AREA" SimpleFormat="true"/>
+     <Node Name="INITIAL_SCREEN" SimpleFormat="true"/>
+     <Node Name="MSG_MAPPER_SETTING" SimpleFormat="true"/>
+     <Node Name="VARIANT" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">VARIANT_1</ID>
+       <NAME Transl="true">1</NAME>
+       <Node Name="CONF_STEP_VIEW" SimpleFormat="true"/>
+       <Node Name="CONF_STEP_VIEW_ATTR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true"/>
+       </Node>
+       <Node Name="FINAL_ACTION" SimpleFormat="true"/>
+       <Node Name="MAINSTEP" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">PASO1</ID>
+         <INDEX>1</INDEX>
+         <NAME Transl="true">3</NAME>
+         <Node Name="EXPLANATION" SimpleFormat="true"/>
+         <Node Name="MAINSTEP_UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056B301AF1ED68B841F86A3DA40ED</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>W_EMPRESA</INTERFACE_VIEW>
+           <COMPONENT>ZWDC_DATOS_PERSONALES</COMPONENT>
+          </Item>
+         </Node>
+         <Node Name="SUBSTEP_VARIANT" SimpleFormat="true"/>
+         <Node Name="TOOLBAR" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <IS_CONFIGURED>X</IS_CONFIGURED>
+           <Node Name="CLOSE" SimpleFormat="true"/>
+           <Node Name="FINISH" SimpleFormat="true"/>
+           <Node Name="NEXT_STEP" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true"/>
+           </Node>
+           <Node Name="OTHER_FUNCTIONS" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="BUTTON" SimpleFormat="true"/>
+             <Node Name="BUTTON_CHOICE" SimpleFormat="true"/>
+             <Node Name="SEPARATOR" SimpleFormat="true"/>
+            </Item>
+           </Node>
+           <Node Name="RELATED_LINKS" SimpleFormat="true"/>
+           <Node Name="SAVE_DRAFT" SimpleFormat="true"/>
+           <Node Name="YOU_CAN_ALSO" SimpleFormat="true"/>
+          </Item>
+         </Node>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <ID Final="5 ">PASO2</ID>
+         <NAME Transl="true">8</NAME>
+         <ENABLED>X</ENABLED>
+         <INDEX>2</INDEX>
+         <Node Name="EXPLANATION" SimpleFormat="true"/>
+         <Node Name="MAINSTEP_UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056B301AF1ED68B84F1B1922A00ED</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>W_DIRECCION</INTERFACE_VIEW>
+           <INDEX>1</INDEX>
+           <COMPONENT>ZWDC_DATOS_DIRECCION</COMPONENT>
+          </Item>
+         </Node>
+         <Node Name="SUBSTEP_VARIANT" SimpleFormat="true"/>
+         <Node Name="TOOLBAR" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <IS_CONFIGURED>X</IS_CONFIGURED>
+           <Node Name="CLOSE" SimpleFormat="true"/>
+           <Node Name="FINISH" SimpleFormat="true"/>
+           <Node Name="NEXT_STEP" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true"/>
+           </Node>
+           <Node Name="OTHER_FUNCTIONS" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="BUTTON" SimpleFormat="true"/>
+             <Node Name="BUTTON_CHOICE" SimpleFormat="true"/>
+             <Node Name="SEPARATOR" SimpleFormat="true"/>
+            </Item>
+           </Node>
+           <Node Name="RELATED_LINKS" SimpleFormat="true"/>
+           <Node Name="SAVE_DRAFT" SimpleFormat="true"/>
+           <Node Name="YOU_CAN_ALSO" SimpleFormat="true"/>
+          </Item>
+         </Node>
+        </Item>
+        <Item Index="000003" SimpleFormat="true">
+         <ID Final="5 ">PASO3</ID>
+         <NAME Transl="true">9</NAME>
+         <ENABLED>X</ENABLED>
+         <INDEX>3</INDEX>
+         <Node Name="EXPLANATION" SimpleFormat="true"/>
+         <Node Name="MAINSTEP_UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056B301AF1ED68B84F1B1922A20ED</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>W_DATOS_BANCARIOS</INTERFACE_VIEW>
+           <INDEX>1</INDEX>
+           <COMPONENT>ZWDC_DATOS_BANCARIOS</COMPONENT>
+          </Item>
+         </Node>
+         <Node Name="SUBSTEP_VARIANT" SimpleFormat="true"/>
+         <Node Name="TOOLBAR" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <IS_CONFIGURED>X</IS_CONFIGURED>
+           <Node Name="CLOSE" SimpleFormat="true"/>
+           <Node Name="FINISH" SimpleFormat="true"/>
+           <Node Name="NEXT_STEP" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true"/>
+           </Node>
+           <Node Name="OTHER_FUNCTIONS" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <Node Name="BUTTON" SimpleFormat="true"/>
+             <Node Name="BUTTON_CHOICE" SimpleFormat="true"/>
+             <Node Name="SEPARATOR" SimpleFormat="true"/>
+            </Item>
+           </Node>
+           <Node Name="RELATED_LINKS" SimpleFormat="true"/>
+           <Node Name="SAVE_DRAFT" SimpleFormat="true"/>
+           <Node Name="YOU_CAN_ALSO" SimpleFormat="true"/>
+          </Item>
+         </Node>
+        </Item>
+        <Item Index="000004" SimpleFormat="true">
+         <ID Final="5 ">PASO4</ID>
+         <NAME Transl="true">6</NAME>
+         <ENABLED>X</ENABLED>
+         <INDEX>4</INDEX>
+         <Node Name="EXPLANATION" SimpleFormat="true"/>
+         <Node Name="MAINSTEP_UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056B301AF1ED68B990482BC0220ED</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>ZWDC_DATOS_PERSONALES</COMPONENT>
+           <INTERFACE_VIEW>W_EMPRESA</INTERFACE_VIEW>
+           <NEEDS_STRETCHING/>
+           <LOCATION/>
+           <INDEX>1</INDEX>
+           <HIDDEN/>
+           <CONFIG_ID/>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <ROW/>
+           <INSTANCE_STYLE/>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056B301AF1ED68B850382ED71C0ED</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>ZWDC_DATOS_DIRECCION</COMPONENT>
+           <INTERFACE_VIEW>W_DIRECCION</INTERFACE_VIEW>
+           <NEEDS_STRETCHING/>
+           <LOCATION/>
+           <INDEX>2</INDEX>
+           <HIDDEN/>
+           <CONFIG_ID>ZWDC_DATOS_DIRECCION_CONF_PASO4</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <ROW/>
+           <INSTANCE_STYLE/>
+          </Item>
+          <Item Index="000003" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056B301AF1ED68B850382ED71E0ED</FPM_PRIMARY_ATTRIBUTE>
+           <COMPONENT>ZWDC_DATOS_BANCARIOS</COMPONENT>
+           <INTERFACE_VIEW>W_DATOS_BANCARIOS</INTERFACE_VIEW>
+           <NEEDS_STRETCHING/>
+           <LOCATION/>
+           <INDEX>3</INDEX>
+           <HIDDEN/>
+           <CONFIG_ID>ZWDC_DATOS_BANCARIOS_PASO4</CONFIG_ID>
+           <CONFIG_TYPE/>
+           <CONFIG_VAR/>
+           <INSTANCE_ID/>
+           <ROW/>
+           <INSTANCE_STYLE/>
+          </Item>
+         </Node>
+         <Node Name="SUBSTEP_VARIANT" SimpleFormat="true"/>
+         <Node Name="TOOLBAR" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <IS_CONFIGURED>X</IS_CONFIGURED>
+           <Node Name="CLOSE" SimpleFormat="true"/>
+           <Node Name="FINISH" SimpleFormat="true"/>
+           <Node Name="NEXT_STEP" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true"/>
+           </Node>
+           <Node Name="OTHER_FUNCTIONS" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <IS_CONFIGURED>X</IS_CONFIGURED>
+             <Node Name="BUTTON" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056B301AF1ED68B9CBD9FFB0A60ED</FPM_PRIMARY_ATTRIBUTE>
+               <IS_CONFIGURED>X</IS_CONFIGURED>
+               <VISIBILITY>02</VISIBILITY>
+               <LABEL Transl="true">7</LABEL>
+               <OTHER_FUNCTION_INDEX>1</OTHER_FUNCTION_INDEX>
+               <DESIGN>01</DESIGN>
+               <EVENT_ID>FPM_LEAVE_INITIAL_SCREEN</EVENT_ID>
+               <ELEMENT_ID>FINALIZAR</ELEMENT_ID>
+              </Item>
+             </Node>
+             <Node Name="BUTTON_CHOICE" SimpleFormat="true"/>
+             <Node Name="SEPARATOR" SimpleFormat="true"/>
+            </Item>
+           </Node>
+           <Node Name="RELATED_LINKS" SimpleFormat="true"/>
+           <Node Name="SAVE_DRAFT" SimpleFormat="true"/>
+           <Node Name="YOU_CAN_ALSO" SimpleFormat="true"/>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="WIRE_MODEL" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="WIRE" SimpleFormat="true"/>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <URL>/sap/bc/webdynpro/sap/DCE10039/</URL>
+   <ICFSERVICE>
+    <ICF_NAME>DCE10039</ICF_NAME>
+    <ORIG_NAME>DCE10039</ORIG_NAME>
+    <ICFALTNME>ZWDC_REP_ACT_INVEST</ICFALTNME>
+   </ICFSERVICE>
+   <ICFDOCU>
+    <ICF_NAME>DCE10039</ICF_NAME>
+    <ICF_LANGU>S</ICF_LANGU>
+    <ICF_DOCU>Reporte de actividades de investigación</ICF_DOCU>
+   </ICFDOCU>
+  </asx:values>
+ </asx:abap>
+</abapGit>

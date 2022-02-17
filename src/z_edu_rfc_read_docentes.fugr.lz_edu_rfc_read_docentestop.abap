@@ -1,0 +1,3 @@
+FUNCTION-POOL Z_EDU_RFC_READ_DOCENTES.      "MESSAGE-ID ..
+
+* INCLUDE LZ_EDU_RFC_READ_DOCENTESD...       " Local class definition

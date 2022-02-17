@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Servicios para trámites</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDEDU_TRAMITESF01</SOBJ_NAME>
+    <SOBJ_NAME>LZDEDU_TRAMITESTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDEDU_TRAMITES</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_EDU_ADD_EMPL</FUNCNAME>
+     <SHORT_TEXT>Agrega el numero de empleado al BP</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_BP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_PARTNER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_NRO_EMPLE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_ID_NUMBER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SOCIEDAD</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BUKRS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_CTRIND</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PCO_SUBES</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_BP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número de interlocutor comercial</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_NRO_EMPLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número de identificación</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SOCIEDAD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sociedad</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_CTRIND</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Identificador de Contratista Independiente</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_GET_DATA_FROM_BP</FUNCNAME>
+     <SHORT_TEXT>Trae los datos de un BP y los guarda en memoria</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_BP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_PARTNER</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_BP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número de interlocutor comercial</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_GET_DATA_TRM</FUNCNAME>
+     <SHORT_TEXT>Trae los datos de memoria</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ES_DATOS_PERSONALES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZEDU_S_DATOS_PERSONALES</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ES_DATOS_DIRECCION</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZEDU_S_DIRECCION</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_DATOS_BANCARIOS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZEDU_T_DATOS_BANCARIOS</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ES_DATOS_PERSONALES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estructura de datos personales persona y empresa</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_DATOS_DIRECCION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estructura de direcciones</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_DATOS_BANCARIOS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo tabla de datos bancarios WD</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_REFRESH_DATA_TRM</FUNCNAME>
+     <SHORT_TEXT>Borra datos en memoria</SHORT_TEXT>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_SAVE_ALTA</FUNCNAME>
+     <SHORT_TEXT>Grabación trámite de alta de persona o empresa</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_PARTNER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_PARTNER</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>EV_PARTNER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número de interlocutor comercial</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_SAVE_MODIF</FUNCNAME>
+     <SHORT_TEXT>Grabación trámite de alta de persona o empresa</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_NO_WF</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FLAG</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_NO_WF</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Indicador general</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_SAVE_MODIF_STUDENT</FUNCNAME>
+     <SHORT_TEXT>Modificar Datos si BP es Estudiante</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_PARTNER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPIBUS1006_HEAD-BPARTNER</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_PARTNER</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_SAVE_MODIF_WF</FUNCNAME>
+     <SHORT_TEXT>Graba el tramite segun se apruebe o no desde el WF</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_BP</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_PARTNER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ESTADO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_BP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número de interlocutor comercial</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ESTADO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>A (Aprobado) / R (Rechazado)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_SET_DATA_TRM</FUNCNAME>
+     <SHORT_TEXT>Setea los datos de memoria</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_DATOS_PERSONALES</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZEDU_S_DATOS_PERSONALES</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_DATOS_DIRECCION</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZEDU_S_DIRECCION</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_DATOS_DOCUMENTO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZEDU_T_DATOS_DOCUMENTO</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_DATOS_BANCARIOS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZEDU_T_DATOS_BANCARIOS</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_DATOS_PERSONALES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estructura de datos personales persona y empresa</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_DATOS_DIRECCION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Estructura de direcciones</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_DATOS_DOCUMENTO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo tabla de ZEDU_S_DATOS_DOCUMENTO</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_DATOS_BANCARIOS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo tabla de datos bancarios WD</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_TRAMITE_WEB_GET</FUNCNAME>
+     <SHORT_TEXT>Servicio para obtener marca tramite web</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_XTRAMITE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XFELD</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>E_XTRAMITE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Casilla de selección</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_TRAMITE_WEB_SET</FUNCNAME>
+     <SHORT_TEXT>Servicio para seteo de marca tramite web</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_XTRAMITE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_XTRAMITE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>&apos;X&apos; Si &apos; &apos; No</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

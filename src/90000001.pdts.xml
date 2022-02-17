@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PDTS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PDTS>
+    <SHORT_TEXT>zdecisiondev</SHORT_TEXT>
+    <PLVAR>01</PLVAR>
+    <WI_TEXT>Decida entre las alternativas disponibles</WI_TEXT>
+    <METHOD>
+     <OTYPE>TS</OTYPE>
+     <OBJID>90000001</OBJID>
+     <SWOTP>DECISION</SWOTP>
+     <SWMTD>PROCESS</SWMTD>
+     <METHTYPE>BO</METHTYPE>
+     <SYNCHRON>X</SYNCHRON>
+     <TSKRELSTAT>R</TSKRELSTAT>
+    </METHOD>
+    <DESCRIPTIONS>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90000001</OBJID>
+      <LANGU>S</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000001</TABSEQNR>
+      <TLINE>Se ha solicitado la modificación del interlocutor comercial</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90000001</OBJID>
+      <LANGU>S</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000002</TABSEQNR>
+      <TLINE>&amp;ZDWFBO_CAM.BP&amp; con el tipo y número de identificación</TLINE>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90000001</OBJID>
+      <LANGU>S</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000003</TABSEQNR>
+      <TLINE>&amp;ZDWFBO_CAM.IDENTIFICATIONTYPE&amp; &amp;ZDWFBO_CAM.IDNUMBER&amp;</TLINE>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90000001</OBJID>
+      <LANGU>S</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000004</TABSEQNR>
+      <TLINE>Los campos anteriores son los siguientes:</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90000001</OBJID>
+      <LANGU>S</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000005</TABSEQNR>
+      <TLINE>&amp;ZDWFBO_CAM.TYPEID_OLD&amp; &amp;ZDWFBO_CAM.IDNUMBER_OLD&amp;</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90000001</OBJID>
+      <LANGU>S</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000006</TABSEQNR>
+      <TLINE>&amp;FULL_NAME2&amp;</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90000001</OBJID>
+      <LANGU>S</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000007</TABSEQNR>
+      <TLINE>Los nuevos valores son los siguientes:</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90000001</OBJID>
+      <LANGU>S</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000008</TABSEQNR>
+      <TLINE>&amp;ZDWFBO_CAM.IDENTIFICATIONTYPE&amp; &amp;ZDWFBO_CAM.IDNUMBER&amp;</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>90000001</OBJID>
+      <LANGU>S</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000009</TABSEQNR>
+      <TLINE>&amp;FULL_NAME1&amp;</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+    </DESCRIPTIONS>
+   </PDTS>
+   <CONTAINER>
+    <CONTAINER>
+     <PROPERTIES>
+      <OWN_ID>
+       <INSTID>TS90000001</INSTID>
+       <TYPEID>CL_SWF_CNT_HRS_PERSISTENCE</TYPEID>
+       <CATID>CL</CATID>
+      </OWN_ID>
+      <PROPSTRING>23</PROPSTRING>
+      <XMLVERSION>0002</XMLVERSION>
+      <INTERNAL>X</INTERNAL>
+      <EXDEFINITN>
+       <NAME>_DEF_EXT</NAME>
+       <POR>
+        <INSTID>DIALOG_STEP_CONTAINER</INSTID>
+        <TYPEID>CL_SWF_CNT_PERSISTENCE_DEF_EXT</TYPEID>
+        <CATID>CL</CATID>
+       </POR>
+      </EXDEFINITN>
+     </PROPERTIES>
+     <ELEMENTS>
+      <L NAME="EXTENDED:Extended:" TYPE="::SYST-INPUT:C:1:0" PROPS="0C003301"/>
+      <M NAME="DECISION_NOTE:Decision_Note:" TYPE="SOFM:BO:::0:0" PROPS="0C920B01"/>
+      <N NAME="NOTE_REFERENCE:Note_Reference:" TYPE="SOFM:BO:::0:0" PROPS="0C921301"/>
+      <O NAME="ZDWFBO_CAM::" TYPE="ZDWFBO_CAM:BO::u:0:0" PROPS="0C921201"/>
+      <P NAME="FULL_NAME2:Full_name2:" TYPE="::COMPL_NAME:C:160:0" PROPS="0C001201"/>
+      <Q NAME="FULL_NAME1:Full_name1:" TYPE="::COMPL_NAME:C:160:0" PROPS="0C001201"/>
+     </ELEMENTS>
+    </CONTAINER>
+   </CONTAINER>
+  </asx:values>
+ </asx:abap>
+</abapGit>

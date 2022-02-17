@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_EDU_LOG</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Clase de Log de aplicación..</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EDU_LOG</CLSNAME>
+     <CMPNAME>GC_LOG_HANDLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log de aplicación: Programa de control de un log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EDU_LOG</CLSNAME>
+     <CMPNAME>GES_SYST</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Campos sistema ABAP.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EDU_LOG</CLSNAME>
+     <CMPNAME>GES_VIGENCIA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Vigencia del log de aplicación.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EDU_LOG</CLSNAME>
+     <CMPNAME>GS_OBJECT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log aplicación: Objetos.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EDU_LOG</CLSNAME>
+     <CMPNAME>GS_SUBOBJECT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log aplicación: Objeto inferior.</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

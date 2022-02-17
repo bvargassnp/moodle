@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <URL>/sap/bc/webdynpro/sap/DCE10015/</URL>
+   <ICFSERVICE>
+    <ICF_NAME>DCE10015</ICF_NAME>
+    <ORIG_NAME>DCE10015</ORIG_NAME>
+    <ICFALTNME>ZWDC_TRAMITES_ALTA_EMPRESAS</ICFALTNME>
+   </ICFSERVICE>
+   <ICFDOCU>
+    <ICF_NAME>DCE10015</ICF_NAME>
+    <ICF_LANGU>S</ICF_LANGU>
+    <ICF_DOCU>Web Dynpro Application ZWDC_TRAMITES_ALTA_EMPRESAS / Component FPM_GAF_COMPONENT</ICF_DOCU>
+   </ICFDOCU>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Grupo de función para certificados</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDEDU_CERTIFICADOSF01</SOBJ_NAME>
+    <SOBJ_NAME>LZDEDU_CERTIFICADOSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDEDU_CERTIFICADOS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_EDU_EXTRACTOR_GRADUACION</FUNCNAME>
+     <SHORT_TEXT>Extracor de datos de graduación</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_NRO_IDENT</PARAMETER>
+       <TYP>ZEDU_T_NRO_IDENT</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ET_DATOS_GRADUACION</PARAMETER>
+       <TYP>ZEDU_T_DATOS_GRADUACION</TYP>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>SIN_DATOS</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_NRO_IDENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo tabla nro de identidad BUT0ID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_DATOS_GRADUACION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo tabla resultados notas académicas</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SIN_DATOS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>No se encontraron datos</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_EXTRACTOR_NOTAS_ACADEM</FUNCNAME>
+     <SHORT_TEXT>Extracor certificados notas académicas</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_PLAN_ESTUDIO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>HROBJID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_NRO_IDENT</PARAMETER>
+       <TYP>ZEDU_T_NRO_IDENT</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ET_NOTAS_ACADEMICAS</PARAMETER>
+       <TYP>ZEDU_T_NOTAS_ACADEMICAS</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ET_PROMEDIO_SEMESTRE</PARAMETER>
+       <TYP>ZEDU_T_PROMEDIO_SEMESTRE_NOTAS</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_PLAN_ESTUDIO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ID objeto</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_NRO_IDENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla retorno</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_NOTAS_ACADEMICAS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo tabla resultados notas académicas</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_PROMEDIO_SEMESTRE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo tabla de promedios de notas por período</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_EXTRACTOR_ROTACIONES</FUNCNAME>
+     <SHORT_TEXT>Extracor de datos de graduación</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_NRO_IDENT</PARAMETER>
+       <TYP>ZEDU_T_NRO_IDENT</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ET_DATOS_ROTACIONES</PARAMETER>
+       <TYP>ZEDU_T_DATOS_ROTACIONES</TYP>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>SIN_DATOS</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_NRO_IDENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo tabla nro de identidad BUT0ID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_DATOS_ROTACIONES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo tabla resultados notas académicas</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SIN_DATOS</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>No se encontraron datos</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

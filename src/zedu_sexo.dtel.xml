@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZEDU_SEXO</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>ZEDU_SEXO</DOMNAME>
+    <HEADLEN>04</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>04</SCRLEN2>
+    <SCRLEN3>04</SCRLEN3>
+    <DDTEXT>Sexo</DDTEXT>
+    <REPTEXT>Sexo</REPTEXT>
+    <SCRTEXT_S>Sexo</SCRTEXT_S>
+    <SCRTEXT_M>Sexo</SCRTEXT_M>
+    <SCRTEXT_L>Sexo</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

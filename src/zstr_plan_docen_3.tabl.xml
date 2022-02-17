@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZSTR_PLAN_DOCEN_3</TABNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>alv act adm docencia</DDTEXT>
+    <EXCLASS>1</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>CONSECUTIVO</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000001</INTLEN>
+     <DATATYPE>INT1</DATATYPE>
+     <LENG>000003</LENG>
+     <MASK>  INT1</MASK>
+     <DDTEXT>Consecutivo</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>TIPO_ACT</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000104</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000052</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Tipo de Actividad</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>SUBACTIVIDAD</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000104</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000052</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Subactividad</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>OBSERVACION</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000140</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000070</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Observacion</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>HORAS_SEM</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>N</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>NUMC</DATATYPE>
+     <LENG>000008</LENG>
+     <MASK>  NUMC</MASK>
+     <DDTEXT>Horas Semestre</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

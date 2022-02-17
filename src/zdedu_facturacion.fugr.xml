@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>MFs de facturación</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDEDU_FACTURACIONTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDEDU_FACTURACION</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZEDU_CALCULAR_TARIFA_ODONTO</FUNCNAME>
+     <SHORT_TEXT>Calcula tarifa facturación a una fecha</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_DIV_CRH</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZEDU_DIVCRH</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KSCHL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>KSCHA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_CMSCCAT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PIQSCFEECAT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_PERYR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PIQPERYR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_PERID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PIQPERID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_KEBTR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>KBETR_KOND</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_ENCONTRADA_TARIFA_ODON</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_DIV_CRH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Codigo para fecha nicio en plan</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KSCHL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Clase de condición</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_CMSCCAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Categoría de tasas SC</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_PERYR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Añp académico</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_PERID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Período académico</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_KEBTR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Importe/porcentaje de condición si no existe escala</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parámetro de retorno</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_ENCONTRADA_TARIFA_ODON</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>No se encontró la tarifa</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_FACTURACION</FUNCNAME>
+     <SHORT_TEXT>MF para facturar</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_ANIO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PIQPERYR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PERIODO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PIQPERID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ESTUDIANTE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>HROBJID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SIMULADO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_VISUALIZAR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BOOLE_D</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>CV_XPOST</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CMAC_XPOST</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_TARIFA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR20</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_OPBEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>OPBEL_KK</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ET_ERROR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>HRIQ_ERROR_STRUCTURE</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_ANIO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Año académico</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PERIODO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Período académico</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ESTUDIANTE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ID objeto</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SIMULADO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Casilla de selección</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_VISUALIZAR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Visualizar antes de contabilizar</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_TARIFA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>20 caract.</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_OPBEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº documento de la cuenta corriente contractual</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla retorno</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_ERROR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla de estructura de error</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CV_XPOST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Indicador: Contabilizar resultado del cálculo de tasas</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_GET_AUTOESPE</FUNCNAME>
+     <SHORT_TEXT>Consulta de autorizaciones especiales</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_OBJID_ST</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>HROBJID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_OBJID_SM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>HROBJID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_PERYR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PIQPERYR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_PERID</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PIQPERID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_PERMISO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZEDU_PERMISO_E</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_OBJID_ST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ID objeto</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_OBJID_SM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ID objeto</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_PERYR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Año académico</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_PERID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Período académico</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_PERMISO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>&quot;X&quot;- Premiso, &quot; &quot;-Sin permiso</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

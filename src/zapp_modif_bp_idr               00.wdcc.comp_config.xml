@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_IDR_COMPONENT" ConfId="ZAPP_MODIF_BP_IDR" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="IDR_BASIC" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <APPLICATION_TITLE Transl="true">1</APPLICATION_TITLE>
+     <APPLICATION_TITLE_TOOLTIP Transl="true"/>
+    </Item>
+   </Node>
+   <Node Name="IDR_EXTENDED" SimpleFormat="true"/>
+  </Item>
+ </Node>
+</Component>

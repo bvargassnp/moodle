@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_WDCC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <OBJECT_NAME>ZAPP_MODIF_BP                   00</OBJECT_NAME>
+   <CONFIG_ID>ZAPP_MODIF_BP</CONFIG_ID>
+   <WDA_COMPONENT>FPM_GAF_COMPONENT</WDA_COMPONENT>
+   <OTR_TEXT>
+    <WDY_CONFIG_COMPT>
+     <CONFIG_ID>ZAPP_MODIF_BP</CONFIG_ID>
+     <LANGU>D</LANGU>
+     <TEXT_ID>1</TEXT_ID>
+     <DESCRIPTION>Variante (1)</DESCRIPTION>
+    </WDY_CONFIG_COMPT>
+    <WDY_CONFIG_COMPT>
+     <CONFIG_ID>ZAPP_MODIF_BP</CONFIG_ID>
+     <LANGU>E</LANGU>
+     <TEXT_ID>1</TEXT_ID>
+     <DESCRIPTION>Variant (1)</DESCRIPTION>
+    </WDY_CONFIG_COMPT>
+    <WDY_CONFIG_COMPT>
+     <CONFIG_ID>ZAPP_MODIF_BP</CONFIG_ID>
+     <LANGU>S</LANGU>
+     <TEXT_ID>1</TEXT_ID>
+     <DESCRIPTION>Variante (1)</DESCRIPTION>
+    </WDY_CONFIG_COMPT>
+    <WDY_CONFIG_COMPT>
+     <CONFIG_ID>ZAPP_MODIF_BP</CONFIG_ID>
+     <LANGU>S</LANGU>
+     <TEXT_ID>10</TEXT_ID>
+     <DESCRIPTION>Confirmación</DESCRIPTION>
+    </WDY_CONFIG_COMPT>
+    <WDY_CONFIG_COMPT>
+     <CONFIG_ID>ZAPP_MODIF_BP</CONFIG_ID>
+     <LANGU>S</LANGU>
+     <TEXT_ID>11</TEXT_ID>
+     <DESCRIPTION>Datos Básicos</DESCRIPTION>
+    </WDY_CONFIG_COMPT>
+    <WDY_CONFIG_COMPT>
+     <CONFIG_ID>ZAPP_MODIF_BP</CONFIG_ID>
+     <LANGU>S</LANGU>
+     <TEXT_ID>12</TEXT_ID>
+     <DESCRIPTION>Datos Adicionales</DESCRIPTION>
+    </WDY_CONFIG_COMPT>
+    <WDY_CONFIG_COMPT>
+     <CONFIG_ID>ZAPP_MODIF_BP</CONFIG_ID>
+     <LANGU>S</LANGU>
+     <TEXT_ID>13</TEXT_ID>
+     <DESCRIPTION>Datos Bancarios</DESCRIPTION>
+    </WDY_CONFIG_COMPT>
+    <WDY_CONFIG_COMPT>
+     <CONFIG_ID>ZAPP_MODIF_BP</CONFIG_ID>
+     <LANGU>S</LANGU>
+     <TEXT_ID>7</TEXT_ID>
+     <DESCRIPTION>Finalizar</DESCRIPTION>
+    </WDY_CONFIG_COMPT>
+   </OTR_TEXT>
+   <DESCR_LANG>
+    <WDY_CONFIG_DATT>
+     <CONFIG_ID>ZAPP_MODIF_BP</CONFIG_ID>
+     <LANGU>S</LANGU>
+     <DESCRIPTION>Tramite de modificiación de BP</DESCRIPTION>
+    </WDY_CONFIG_DATT>
+   </DESCR_LANG>
+  </asx:values>
+ </asx:abap>
+</abapGit>

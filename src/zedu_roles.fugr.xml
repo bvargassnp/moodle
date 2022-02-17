@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Ampliación de roles para el BP</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZEDU_ROLESF01</SOBJ_NAME>
+    <SOBJ_NAME>LZEDU_ROLESTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZEDU_ROLES</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_EDU_CREATE_CC</FUNCNAME>
+     <SHORT_TEXT>Crear cuenta contrato</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_PARTNER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_PARTNER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ACCT_CAT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>VKTYP_KK</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PSOBJECTTYPE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PSOBTYP_PS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_PARTNER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número de interlocutor comercial</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ACCT_CAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de cuenta contrato</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PSOBJECTTYPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Clase de un objeto de contrato</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla retorno</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_CREATE_ROL</FUNCNAME>
+     <SHORT_TEXT>Crea el rol para un BP</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_PARTNER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_PARTNER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_TIPO_ROL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_PARTNER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número de interlocutor comercial</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_TIPO_ROL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de función IC</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_GET_ACREEDOR</FUNCNAME>
+     <SHORT_TEXT>Traigo datos deudor en memoria</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ES_ACREEDOR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZEDU_S_ACREEDOR_CVI</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ES_ACREEDOR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datos Deudor</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_GET_DATA_FROM_ACREEDOR</FUNCNAME>
+     <SHORT_TEXT>Trae datos de acreedor / proveedor</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_PARTNER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_PARTNER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BUKRS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BUKRS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_PARTNER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número de interlocutor comercial</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BUKRS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sociedad</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_GET_DATA_FROM_DEUDOR</FUNCNAME>
+     <SHORT_TEXT>Trae datos de cliente / deudor</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_PARTNER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_PARTNER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BUKRS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BUKRS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_PARTNER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número de interlocutor comercial</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BUKRS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sociedad</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_GET_DEUDOR</FUNCNAME>
+     <SHORT_TEXT>Traigo datos deudor en memoria</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ES_DEUDOR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZEDU_S_DEUDOR_CVI</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ES_DEUDOR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datos Deudor</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_MODIF_ROL</FUNCNAME>
+     <SHORT_TEXT>Modifica el rol para un BP</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_PARTNER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_PARTNER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BUKRS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BUKRS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_TIPO_ROL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_PARTNER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número de interlocutor comercial</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BUKRS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sociedad</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_TIPO_ROL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de función IC</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_REFRESH_ACREEDOR</FUNCNAME>
+     <SHORT_TEXT>Borra datos de deudor</SHORT_TEXT>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_REFRESH_DEUDOR</FUNCNAME>
+     <SHORT_TEXT>Borra datos de deudor</SHORT_TEXT>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_SAVE_ROL</FUNCNAME>
+     <SHORT_TEXT>Graba el rol para un BP</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_PARTNER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BU_PARTNER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BUKRS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BUKRS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_TIPO_ROL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPIRET2_T</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_PARTNER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Número de interlocutor comercial</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BUKRS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sociedad</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_TIPO_ROL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tipo de función IC</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla retorno</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_SET_ACREEDOR</FUNCNAME>
+     <SHORT_TEXT>Seteo datos deudor en memoria</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_ACREEDOR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZEDU_S_ACREEDOR_CVI</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_ACREEDOR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datos Deudor</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_SET_DEUDOR</FUNCNAME>
+     <SHORT_TEXT>Seteo datos deudor en memoria</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_DEUDOR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZEDU_S_DEUDOR_CVI</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_DEUDOR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datos Deudor</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

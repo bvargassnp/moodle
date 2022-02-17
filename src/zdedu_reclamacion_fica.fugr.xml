@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Funciones Reclamación FICA</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDEDU_RECLAMACION_FICAF01</SOBJ_NAME>
+    <SOBJ_NAME>LZDEDU_RECLAMACION_FICATOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDEDU_RECLAMACION_FICA</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZEDU_FKK_SAMPLE_5059</FUNCNAME>
+     <SHORT_TEXT>Inkassobüro: Positionen für die Freigabe ausschließen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_FKKOP</PARAMETER>
+       <DBFIELD>FKKOP</DBFIELD>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>I_REL_INSTPLN</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BOOLE-BOOLE</TYP>
+      </RSCHA>
+     </CHANGING>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_FKKOP_NOT_SUBMITTED</PARAMETER>
+       <DBSTRUCT>FKKOP</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_FKKOP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Geschäftspartnerpositionen zum Kontokorrentbeleg</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FKKOP_NOT_SUBMITTED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Positionen die nicht an Inkassobüro abgegeben werden</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_REL_INSTPLN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Ratenplapositionen freigeben</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_EDU_FKK_SAMPLE_5065</FUNCNAME>
+     <SHORT_TEXT>Oficina de cobro: Anular partidas</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>DO_RECALL</PARAMETER>
+       <DBFIELD>BOOLE-BOOLE</DBFIELD>
+      </RSCHA>
+     </CHANGING>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_DFKKCOLL</PARAMETER>
+       <DBSTRUCT>DFKKCOLL</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_ALL_COLL</PARAMETER>
+       <DBSTRUCT>DFKKCOLL</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_RECALL_COLL</PARAMETER>
+       <DBSTRUCT>DFKKCOLL</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_REASSIGN_COLL</PARAMETER>
+       <DBSTRUCT>DFKKCOLL</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_DFKKCOLL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datos de gestión para cesión de crédito a oficina de cobro</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_ALL_COLL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datos de gestión para cesión de crédito a oficina de cobro</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_RECALL_COLL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datos de gestión para cesión de crédito a oficina de cobro</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_REASSIGN_COLL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datos de gestión para cesión de crédito a oficina de cobro</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DO_RECALL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Elem.datos p.dominio BOOLE: VERDADERO (=&quot;X&quot;) y FALSO (=&quot; &quot;)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler gefunden</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_FKK_COLL_AGENCY_RELEASE_0350</FUNCNAME>
+     <SHORT_TEXT>Copia Funcion FKK_COLL_AGENCY_RELEASE_0350</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_TFK047L</PARAMETER>
+       <DBFIELD>TFK047L</DBFIELD>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>C_FKKMAKO</PARAMETER>
+       <DBFIELD>FKKMAKO</DBFIELD>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>C_FKKKO</PARAMETER>
+       <DBFIELD>FKKKO</DBFIELD>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_FKKMAZE</PARAMETER>
+       <DBSTRUCT>FKKMAZE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_FKKMAKT</PARAMETER>
+       <DBSTRUCT>FKKMAKT</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_FKKOP</PARAMETER>
+       <DBSTRUCT>FKKOP</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_FKKOPK</PARAMETER>
+       <DBSTRUCT>FKKOPK</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_FIMSG</PARAMETER>
+       <DBSTRUCT>FIMSG</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_TFK047L</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Reclamaciones FI-CA: Definición de actividades reclamación</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>C_FKKMAKO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Historial de reclamación: Cabecera</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>C_FKKKO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datos de cabecera p.documento de cta.corriente</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FKKMAZE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Historial de reclamación: Líneas de documento</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FKKMAKT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Actividad de reclamación</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FKKOP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Posiciones de interlocutor comercial para doc.cta.corriente</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FKKOPK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Posiciones del libro mayor para doc.cta.corriente</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FIMSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mensajes FI</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

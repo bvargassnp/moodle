@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Busqueda de docentes</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ_EDU_RFC_READ_DOCENTES_V2TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ_EDU_RFC_READ_DOCENTES_V2</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_EDU_RFC_READ_DOCENTES_V2</FUNCNAME>
+     <REMOTE_CALL>X</REMOTE_CALL>
+     <SHORT_TEXT>Busqueda de docentes</SHORT_TEXT>
+     <REMOTE_BASXML>X</REMOTE_BASXML>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>PERYR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>PIQPERYR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PERID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>PIQPERID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>P_SOLODOCENTES</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>T_DOCENTES</PARAMETER>
+       <TYP>ZTT_READ_DOCENTES</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_DATA</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>PERYR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Año académico</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PERID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Período académico</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>P_SOLODOCENTES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Solo leer docentes o todo el personal</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_DOCENTES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>tipo tabla retorno funcion Z_EDU_RFC_READ_DOCENTES</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_DATA</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>no se encontro fecha</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZEDU_CLV_CTRL_BANCOS</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>ZEDU_D_CLV_CTRL_BANCOS</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>02</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Clave de control de bancos</DDTEXT>
+    <REPTEXT>CC</REPTEXT>
+    <SCRTEXT_S>Clv.ctrl.</SCRTEXT_S>
+    <SCRTEXT_M>Clv.ctrl.bancos</SCRTEXT_M>
+    <SCRTEXT_L>Clave control bancos</SCRTEXT_L>
+    <APPLCLASS>FB</APPLCLASS>
+    <DTELMASTER>S</DTELMASTER>
+    <DEFFDNAME>CTRL_KEY</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Bankenkontrollschlüssel</DDTEXT>
+     <REPTEXT>KS</REPTEXT>
+     <SCRTEXT_S>KontrSchl.</SCRTEXT_S>
+     <SCRTEXT_M>Kontrollschl.</SCRTEXT_M>
+     <SCRTEXT_L>Bankenkontr.schl.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Bank Control Key</DDTEXT>
+     <REPTEXT>CK</REPTEXT>
+     <SCRTEXT_S>Ctrl Key</SCRTEXT_S>
+     <SCRTEXT_M>Control Key</SCRTEXT_M>
+     <SCRTEXT_L>Bank Control Key</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZEDU_CLV_CTRL_BANCOS</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0025</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00041</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZEDU_CLV_CTRL_BANCOS</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00025</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Brasilien, Frankreich, Spanien, Portugal und Italien</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das Feld enthält einen Prüfschlüssel für die Kombination Bankleitzahl</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>und Bankkontonummer.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; USA</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In USA wird über dieses Feld entschieden, ob es sich um ein Spar- oder</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Girokonto handelt (wurde kein Wert angegeben, so wird als Defaultwert 01</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verwendet):</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>01,,Girokonto</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>02,,Sparkonto</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>03,,Darlehen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>04,,Hauptbuch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Japan</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In Japan gibt der Feldinhalt die Art des Kontos an. Diese Information</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>wird vom Zahlungsträgerdruckprogramm in den Zahlungsträger übernommen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Folgende Kontoarten werden z.B. verwendet:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>01,,FUTSU (entspricht etwa einem Sparkonto)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>02,,TOUZA (entspricht etwa einem Girokonto)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>04,,CHOCHIKU (entspricht etwa eimem Anlagekonto)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>09,,sonstige Bankkonten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Südafrika</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In Südafrika wird über dieses Feld mitgeteilt, welchen Typ das Konto</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>hat. Die hier eingegebene Information wird an die Bank, die den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zahlungsauftrag durchführt, weitergeleitet. Folgende Kontotypen sind im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ACB-Format erlaubt:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>01,,Current (Cheque) Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>02,,Savings Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>03,,Transmission Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>04,,Bond Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>06,,Subscription Share Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Argentinien</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In Argentinien wird der Typ des Kontos angegeben:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CC,,Current Account (Cuenta corriente)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CA,,Saving Account (Caja de ahorro)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CE,,Special Saving Account (Caja de ahorro especial)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CS,,Salary Account (Cuenta sueldos)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Venezuela</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In Venezuela wird der Typ des Kontos angegeben:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CC,,Checking Account (Cuenta corriente)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CA,,Saving Account (Cuenta de ahorro)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CE,,Special Saving Account (Cuenta de ahorro especial)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CS,,Salary Account (Cuenta sueldos)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Mexiko</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In Mexiko enthält dieses Feld einen zweistelligen Schlüssel zur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Klassifizierung des Bankkontos, z.B. als Spar- oder Girokonto, der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bankenabhängig eine unterschiedliche Definition hat.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Hinweis</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In den Ländern, die &lt;ZH&gt;nicht&lt;/&gt; hier aufgeführt sind, kann das Feld</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>für kontenspezifische Information verwendet werden.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZEDU_CLV_CTRL_BANCOS</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0025</VERSION>
+      <TXTLINES>00039</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZEDU_CLV_CTRL_BANCOS</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00025</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Brazil, France, Spain, Portugal and Italy</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The field contains a check key for the combination bank number and bank</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>account number.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; USA</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In USA this field is used to differentiate between a savings and a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>current account (if no value is entered, the default value 01 is used).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>01,,Current account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>02,,Savings account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>03,,Loan account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>04,,General ledger</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Japan</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In Japan this field specifies the type of account. This information is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is copied from the payment medium print program into payment medium. The</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>following is an example of the account types used:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>01,,FUTSU (similar to a savings account)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>02,,TOUZA (similar to a current account)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>04,,CHOCHIKU (similar to an investment account)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>09,,Other types of bank accounts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; South Africa</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In South Africa this field specifies the type of account. The</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>information entered here is forwarded to the bank that carries out the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>payment order. The following account types are permitted in ABC format:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>01,,Current (Cheque) Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>02,,Savings Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>03,,Transmission Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>04,,Bond Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>06,,Subscription Share Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Argentina</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In Argentina this field specifies the type of account:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CC,,Current Account (Cuenta corriente)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CA,,Saving Account (Caja de ahorro)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CE,,Special Saving Account (Caja de ahorro especial)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CS,,Salary Account (Cuenta sueldos)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Venezuela</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In Venezuela this field specifies the type of account:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CC,,Checking Account (Cuenta corriente)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CA,,Saving Account (Cuenta de ahorro)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CE,,Special Saving Account (Cuenta de ahorro especial)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CS,,Salary Account (Cuenta sueldos)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Mexico</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In Mexico this field contains a two-digit key for classifying the bank</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>account (for example, as a savings or current account). This key have</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>different definitions, depending on the bank.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Note</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For countries that are &lt;ZH&gt;not&lt;/&gt; listed here, this field can be used</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for account-specific information.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZEDU_CLV_CTRL_BANCOS</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0025</VERSION>
+      <TXTLINES>00041</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZEDU_CLV_CTRL_BANCOS</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00025</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Brasil, Francia, España, Portugal e Italia</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>El campo contiene una clave de verificación para la combinación código</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bancario y número de cuenta bancario.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; EE.UU.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>En EE.UU. se decide mediante este campo si se trata de una cuenta</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corriente o de ahorro (en caso de que no se indicara ningún valor se</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>utilizará por defecto el valor 01):</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>01,,Cuenta corriente</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>02,,Cuenta de ahorro</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>03,,Préstamo</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>04,,Libro mayor</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Japón</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>En Japón el contenido del campo indica la clase de cuenta. Esta</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>información se transfiere del programa de impresión de medios de pago a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>medios de pago. Se utilizan, por ejemplo, las siguientes clases de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cuentas:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>01,,FUTSU (se corresponde aprox.a una cuenta de ahorro)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>02,,TOUZA (se corresponde aprox.a una cuenta corriente)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>04,,CHOCHIKU (se corresponde aprox.a una cuenta de inversión)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>09,,Otras cuentas bancarias</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Sudáfrica</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>En Sudáfrica se determina mediante este campo el tipo de cuenta. La</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>información aquí indicada se transmite al banco que realiza la orden de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>pago. Se permiten los siguientes tipos de cuenta en formato ABC:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>01,,Current (Cheque) Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>02,,Savings Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>03,,Transmission Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>04,,Bond Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>06,,Subscription Share Account</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Argentina</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>En Argentina se indica el tipo de cuenta:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CC,,Current Account (Cuenta corriente)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CA,,Saving Account (Cuenta de ahorro)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CE,,Special Saving Account (Cuenta de ahorro especial)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CS,,Salary Account (Cuenta para domiciliación de nómina)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; Venezuela</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>En Venezuela se indica el tipo de cuenta:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CC,,Checking Account (Cuenta de terceros)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CA,,Saving Account (Cuenta de ahorro)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CE,,Special Saving Account (Cuenta de ahorro especial)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>CS,,Salary Account (Cuenta para domiciliación de nómina)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp; México</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>En México este campo contiene una clave de dos caracteres para</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>clasificar la cuenta bancaria, por ejemplo, una cuenta de ahorro o co</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>rriente que tiene una definición diferente dependiente del banco.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Nota</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>En los países que &lt;ZH&gt;no&lt;/&gt; han sido expuestos se puede utilizar este</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>campo para información específica de la cuenta.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

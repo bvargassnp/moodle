@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="ZWDC_DATOS_DIRECCION" ConfId="ZWDC_DATOS_DIRECCION_CONF_PASO4" ConfType="00" ConfVar="">
+ <View Name="V_DIRECCION">
+  <Item Name="DDBK_CITY">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_CLASE_ACTECO">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_COD_RESFISCAL">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_COUNTRY">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_GROUP_DEST">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_GRUPO_DEST">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_GRUPO_DEST1">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_LETRA">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_LETRA_2">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_ORIENTACION">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_ORIENTACION_2">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_REGION">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_T_VIA">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_ACTECONO">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_BLOQUEO">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_EMAIL">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_EMAIL_2">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_EMAIL_3">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_FAX">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_FAX_EXT">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_GROUP_D">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_LETRA">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_LETRA_2">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_NUMERO">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_NUMERO_2">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_NUMERO_3">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_POST_CODE">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_RESFISCAL">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_TEL_FIJO">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_TEL_FIJO_EXT">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_TEL_MOVIL">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_URBANIZACION">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+ </View>
+</Component>

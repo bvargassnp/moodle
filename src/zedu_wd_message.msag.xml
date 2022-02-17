@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Clase de mensajes para las aplicaciones Web Dynpro</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>El &amp; tiene menos de 7 caracteres.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>El &amp; tiene más de 10 caracteres.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>La extensión del &amp; tiene más de 10 caracteres.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>El evento se grabó satisfactoriamente.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>No se ha podido grabar el evento.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>El interlocutor ya existe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>El interlocutor ya existe con el código &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>El campo &amp; es obligatorio.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>No existe el interlocutor.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>El BP ha sido modificado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>El campo &amp; tiene caracteres no válidos.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>No existe aula &amp;. Seleccione un aula válida</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Complete todos los campos obligatorios o ingrese ID de evento</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Error al modificar evento &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Evento &amp; modificado exitosamente.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Error al modificar infotipo 1716.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>No se han modificado eventos.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Asignación de aulas para evento &amp; modificada exitosamente.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Error al modificar asignación de aulas para evento &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Información de estudiante guardada exitosamente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Error al guardar información de estudiante</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Complete todos los campos obligatorios para continuar</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Los porcentajes no pueden ser superiores a 100</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Ingrese entidad en la cual tiene créditos</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Error al modificar el BP.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>No se puede modificar el BP, modificación pendiente de aprobación.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Aula &amp; no disponible el dia &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Se creó el rol de &amp; para el BP.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>No se ha obtenido ningún resultado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>El evento &amp; no tiene orden interna</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>El Evento &amp; no está listo para publicar</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Participante &amp; &amp; ya inscrito en el evento &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>El evento &amp; no existe</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Actualizar datos básicos desde Gestión de tramites</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Falta datos maestros en tabla KNVV</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Falta campo Región</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Falta campo País</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Falta campo Código Postal</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>No hay más cupo para el evento &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>La inscripción se encuentra bloqueada por el momento intente más tarde</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>No se encontro factura</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Factura Nro &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Seleccione por los menos un evento</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Campo empresa obligatorio</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Evento principal &amp; obligatorio</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Ingrese los Parámetros Obligatorios</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>El departamento &amp; no existe para el país &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Línea &amp; del archivo no tiene evento</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Se procesó &amp; registro con error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Se procesaron &amp; registros con error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>BP Sin mail</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>El archivo no contiene registros validos para procesar</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>No se encontró participante</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Error en facturación número &amp; Evento &amp; Participante &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>No se pudo recuperar la factura</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Mail enviado a participante &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Error al enviar mail al participante &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Mail enviado a participante</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Error al enviar mail al participante</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Evento &amp; no es un evento principal revise HRP9112</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Evento &amp; no es un evento secundario revise HRP9112</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Se procesó &amp; registro con exito</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Se procesaron &amp; registros con exito</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>No se actualizó el número de empleado en el &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Se actualizó el número de empleado en el &amp; correctamente.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Evento &amp; no es un evento principal</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Evento Gratuito. No genera Factura.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Solo se permiten Letras a-z A-Z</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Solo se permiten números, espacios y separador -</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Su inscripción se realizó de forma satisfactoria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Usuario sin autorización para facultades (ZEDU_PD_SEGURIDA)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Debe seleccionar al menos 1 Facultad</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Error al intentar crear Cuenta Continua</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Archivo no Soportado</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Nro. de identificación &amp;1 existe como &amp;2 perteneciente a &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>El evento &amp; no tiene fecha de vencimiento (9112)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>Se descarta/n &amp;1 registro/s por los sig. errores:</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>Se descarta/n &amp;1 registro/s duplicados</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>Evento &amp;1. No se permite inscripción a evento &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>Evento &amp;1 no pertenece a evento principal &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>&amp;1 &amp;2 Inscrito OK</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>El Usuario &amp;1 No está Autorizado a Modificar Estudiantes.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>El aula &amp;1 es virtual, no se permite el registro en este campo</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>El aula &amp;1 no es virtual, no se permite el registro en este campo</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>El aula &amp;1 virtual, no está disponible para el horario seleccionado</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZEDU_WD_MESSAGE</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Valor no válido para &amp;1</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

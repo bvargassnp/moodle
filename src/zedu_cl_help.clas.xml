@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Clase contenedora de métodos reutilizables</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+     <CMPNAME>CHECK_ALPHABET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Checkea si es todo alfabético</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+     <CMPNAME>CHECK_EMAIL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Retorna true si el mail es válido</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+     <CMPNAME>CHECK_FACU_AUTO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Checkea autorización para facultad</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+     <CMPNAME>CHECK_IDENTIFICACION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Checkea nro. de identificación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+     <CMPNAME>CHECK_NRO_TELEF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Checkea si es numérico y -</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+     <CMPNAME>CONVERT_SPECIAL_CHARACTERS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convierte caracteres especiales (hex) en espacios</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+     <CMPNAME>CONVERT_TIPO_DOC</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convierte tipo de documento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+     <CMPNAME>CONVERT_URL_TO_LINK</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convierte las direcciones web contenidas en hipervinculos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+     <CMPNAME>GET_EVENTOS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuevle evento principal y secundarios en rango</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+     <CMPNAME>GET_TEXT_ST</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recupera texto standard SO10</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+     <CMPNAME>GET_TVARVC</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recupera constante o rango</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZEDU_CL_HELP</CLSNAME>
+     <CMPNAME>TY_RA_EVENTO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Evento</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

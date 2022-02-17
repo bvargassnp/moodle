@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZEDU_LOTE_ASO2001</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Número de Lote Asobancaria</DDTEXT>
+    <REPTEXT>Lote ASO2001</REPTEXT>
+    <SCRTEXT_S>LoteAsoban</SCRTEXT_S>
+    <SCRTEXT_M>Lote ASO2001</SCRTEXT_M>
+    <SCRTEXT_L>Lote ASO2001</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <DATATYPE>NUMC</DATATYPE>
+    <LENG>000004</LENG>
+    <OUTPUTLEN>000004</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Name="ZAPP_MODIF_BP" ConfId="ZAPP_MODIF_BP" ConfType="02" ConfVar="">
+ <Parameters>
+  <Parameter Name="WDSTYLE_TOOLBARDESIGN">HIGH</Parameter>
+  <Parameter Name="WDFORCEEXTERNALSTYLESHEET">X</Parameter>
+ </Parameters>
+ <Component Name="FPM_GAF_COMPONENT" Usage="ZAPP_MODIF_BP" ConfType="00" ConfId="ZAPP_MODIF_BP" ConfVar="" Interface="False">
+  <Component Name="FPM_IDR_COMPONENT" Usage="IDR_USAGE" ConfType="00" ConfId="ZAPP_MODIF_BP_IDR" ConfVar="" Interface="False"/>
+ </Component>
+</Application>

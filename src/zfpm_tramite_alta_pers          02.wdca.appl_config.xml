@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Name="ZAPP_ALTA_PERSONA" ConfId="ZFPM_TRAMITE_ALTA_PERS" ConfType="02" ConfVar="">
+ <Parameters>
+  <Parameter Name="WDSTYLE_TOOLBARDESIGN">FLAT</Parameter>
+ </Parameters>
+ <Component Name="FPM_GAF_COMPONENT" Usage="ZAPP_ALTA_PERSONA" ConfType="00" ConfId="ZGAF_ALTA_PERSONA" ConfVar="" Interface="False">
+  <Component Name="FPM_IDR_COMPONENT" Usage="IDR_USAGE" ConfType="00" ConfId="ZGAF_ALTA_PERSONA_IDR" ConfVar="" Interface="False"/>
+ </Component>
+</Application>

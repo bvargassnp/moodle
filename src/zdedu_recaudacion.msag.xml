@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Clase de mensajes para el paquete ZDEDU_RECAUDACION</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>El archivo &amp;1 no existe o esta dañado</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Ruta archivo: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Nombre Archivo: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Lote &amp;1 ya procesado en la fecha &amp;2, con fecha valor &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Error al obtener el número del rango.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Se ha movido el archivo a &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Falta parametrización de &amp;1 en la tabla &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Falta customizing de directorios.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>No existen archivos de recaudo a procesar en ruta &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Se procesa archivo de recaudo &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Se ha ejecutado creación de lote para archivo &amp;1 Id. &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>No hay datos de crédito en el archivo &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Error al ejecutar la creación del lote del archivo &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Se inicia proceso del archivo de recaudo &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Job &amp;1 cancelado (Archivo &amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>****Pago Recaudación****</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Form. Preinscripción &amp;1 Pagado. Transacción: &amp;2. Doc. &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Estado Form Preinsc. No es Pendiente de Pago. Estado Anterior: &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Estado Pago Der. de Grado no es Pendiente de Pago. Estado Anterior: &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Derecho de Grado Pagado. Estud: &amp;1 Transacción: &amp;2. Doc.: &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>****Anulacion Recaudación****</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZDEDU_RECAUDACION</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Form. Preinscripción &amp;1 Anulado. Transacción: &amp;2.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="ZWDC_DATOS_PERSONALES" ConfId="ZWDC_DATOS_PERS_CONF_PASO_4" ConfType="00" ConfVar="">
+ <View Name="V_IDENTIFICACION">
+  <Item Name="BTN_CONFIRMAR">
+   <Prop Name="VISIBLE" Final="0 " P13N_MODE="02">01</Prop>
+  </Item>
+ </View>
+ <View Name="V_PERSONA">
+  <Item Name="DDBK_ESTADO_CIVIL">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_PAIS">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_PROFESION">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_REGION">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_SEXO">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="DDBK_TITULO">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_APELLIDO_1">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_APELLIDO_2">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_DEP_NAC">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_FECHA_ENTRADA">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_FECHA_NAC">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_INST_RESP">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_LUGAR_NAC">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_NOMBRE_1">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+  <Item Name="IF_NOMBRE_2">
+   <Prop Name="READ_ONLY" Final="0 " P13N_MODE="02">X</Prop>
+  </Item>
+ </View>
+</Component>

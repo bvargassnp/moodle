@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Servicios para la gestion de archivos</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDEDU_GESTION_DIR_SERVF01</SOBJ_NAME>
+    <SOBJ_NAME>LZDEDU_GESTION_DIR_SERVTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDEDU_GESTION_DIR_SERV</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_EDU_OBTENER_DIR_FIS_X_PRG</FUNCNAME>
+     <SHORT_TEXT>Obtener directorios Físicos por programa</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_PROGRAMA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PROGRAMM</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_DIR_IN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PATHEXTERN</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_DIR_OUT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PATHEXTERN</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_DIR_ERR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PATHEXTERN</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_DIR_BKP_IN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>PATHEXTERN</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>PROGRAMA_NO_PARAMETRIZADO</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_PROGRAMA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nombre de programa ABAP</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_DIR_IN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nombre de vía acceso física</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_DIR_OUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nombre de vía acceso física</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_DIR_ERR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nombre de vía acceso física</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_DIR_BKP_IN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nombre de vía acceso física</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PROGRAMA_NO_PARAMETRIZADO</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>El programa no se encontró, el mismo no está parametrizado</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

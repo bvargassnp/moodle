@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Grupo de función FICA</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDEDU_FICA_DOCTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDEDU_FICA_DOC</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_EDU_FICA_CTA_X_COBRAR</FUNCNAME>
+     <SHORT_TEXT>MF Búsqueda cuenta por cobrar estadística</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_NRO_FORMULARIO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR10</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_OPBEL</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>OPBEL_KK</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ES_RETURN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPIRET2</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>DOCUMENTO_YA_CONTABILIZADO</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_NRO_FORMULARIO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Campo de texto, longitud 10</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_OPBEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nº documento de la cuenta corriente contractual</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabla retorno</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DOCUMENTO_YA_CONTABILIZADO</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

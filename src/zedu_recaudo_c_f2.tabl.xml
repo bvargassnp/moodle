@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZEDU_RECAUDO_C_F2</TABNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Estructura de parseo registro F2</DDTEXT>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>TIPO_REG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000004</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000002</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Tipo Registro</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>TOT_REG</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000018</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000009</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Total de Registros del lote</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>VALOR</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000036</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000018</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Valor total recaudado en el lote</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>NUM_LOTE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000008</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000004</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Número de Lote</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>RESERVADO</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000258</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000129</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Reservado</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

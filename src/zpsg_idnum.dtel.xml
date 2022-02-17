@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZPSG_IDNUM</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>CHAR30</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Documento de identidad</DDTEXT>
+    <REPTEXT>Documento de identidad</REPTEXT>
+    <SCRTEXT_S>Doc. ID.</SCRTEXT_S>
+    <SCRTEXT_M>Documento identidad</SCRTEXT_M>
+    <SCRTEXT_L>Documento de identidad</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <DEFFDNAME>IDENTITY_NUMBER</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>ID-Nummer</DDTEXT>
+     <REPTEXT>ID-Nummer</REPTEXT>
+     <SCRTEXT_S>ID-Nummer</SCRTEXT_S>
+     <SCRTEXT_M>ID-Nummer</SCRTEXT_M>
+     <SCRTEXT_L>ID-Nummer</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Documento de identidad</DDTEXT>
+     <REPTEXT>Documento de identidad</REPTEXT>
+     <SCRTEXT_S>Doc. ID.</SCRTEXT_S>
+     <SCRTEXT_M>Documento identidad</SCRTEXT_M>
+     <SCRTEXT_L>Documento de identidad</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
